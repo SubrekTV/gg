@@ -16191,7 +16191,7 @@ h6 .badge, .h6 .badge {
 .light {
     position: absolute;
     width: 0px;
-    opacity: .05;
+    opacity: .01;
     background-color: white;
     box-shadow: #e9f1f1 0px 0px 20px 2px;
     opacity: 0;
@@ -16311,30 +16311,30 @@ h6 .badge, .h6 .badge {
 
 @-webkit-keyframes floatUp{
   0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
+  25%{opacity: 0.5;}
   50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
+  75%{opacity: 0.5;}
   100%{top: -100vh; opacity: 0;}
 }
 @-moz-keyframes floatUp{
   0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
+  25%{opacity: 0.5;}
   50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
+  75%{opacity: 0.5;}
   100%{top: -100vh; opacity: 0;}
 }
 @-o-keyframes floatUp{
   0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
+  25%{opacity: 0.5;}
   50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
+  75%{opacity: 0.5;}
   100%{top: -100vh; opacity: 0;}
 }
 @keyframes floatUp{
   0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
+  25%{opacity: 0.5;}
   50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
+  75%{opacity: 0.5;}
   100%{top: -100vh; opacity: 0;}
 }
 
@@ -16409,7 +16409,7 @@ h6 .badge, .h6 .badge {
 
 @-o-keyframes fadeIn{
   from{opacity: 0;}
-  to{opacity: 1;}
+  to{opacity: 0.5;}
 }
 
 @keyframes fadeIn{
@@ -16419,15 +16419,15 @@ h6 .badge, .h6 .badge {
 
 @-webkit-keyframes fadeOut{
   0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
+  30%{opacity: 0.5;}
+  80%{opacity: 0.5;}
   100%{opacity: 0;}
 }
 
 @-moz-keyframes fadeOut{
   0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
+  30%{opacity:0.51;}
+  80%{opacity: 0.5;}
   100%{opacity: 0;}
 }
 
@@ -16440,35 +16440,35 @@ h6 .badge, .h6 .badge {
 
 @keyframes fadeOut{
   0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
+  30%{opacity: 0.5;}
+  80%{opacity: 0.5;}
   100%{opacity: 0;}
 }
 
 @-webkit-keyframes finalFade{
   0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
+  30%{opacity: 0.5;}
+  80%{opacity: 0.5;}
+  100%{opacity:0.51;}
 }
 
 @-moz-keyframes finalFade{
   0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
+  30%{opacity: 0.5;}
+  80%{opacity: 0.5;}
+  100%{opacity: 0.5;}
 }
 
 @-o-keyframes finalFade{
   0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
+  30%{opacity: 0.5;}
+  80%{opacity: 0.5;}
+  100%{opacity:0.51;}
 }
 
 @keyframes finalFade{
   0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
+  30%{opacity: 0.5;}
+  80%{opacity: 0.5;}
+  100%{opacity: 0.5;}
 }
