@@ -11823,7 +11823,7 @@ html {
   --body-bg2: #FAFCFF;
   --bg-dark: #25374D;
   --round-xs: 4px;
-  --frame-width: 1080px; }
+  --frame-width: 100%; }
 
 .rounded-xs {
   border-radius: var(--round-xs); }
