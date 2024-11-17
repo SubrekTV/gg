@@ -1,0 +1,228 @@
+/* jwplayer custom skin */
+/* Botões,play, buffer e replay */
+.jw-svg-icon-buffer path {
+display: none;
+}
+.jw-svg-icon-buffer {
+background-image: url("671e113b3f78d5290a46b49abe5cc98d0a3a7e0b.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-svg-icon-replay path {
+display: none;
+}
+.jw-svg-icon-replay {
+background-image: url("cbb5633e757f2dc9f0121970c9c8ea6543d99e3b.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* Botão Fullscreen */
+.jw-svg-icon-fullscreen-on path {
+display: none;
+}
+.jw-svg-icon-fullscreen-on {
+background-image: url("9c9ebbecd607fa0d7c91803c27423dc545b6d827.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-fullscreen:hover .jw-svg-icon-fullscreen-on {
+background-image: url("041884ecc8415de89c875144bd55b8b917b220ce.png");
+}
+.jw-svg-icon-fullscreen-off path {
+display: none;
+}
+.jw-svg-icon-fullscreen-off {
+background-image: url("ad849810f3502b3d9601929b3139217c391212ea.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-fullscreen:hover .jw-svg-icon-fullscreen-off {
+background-image: url("6f063dc86e33f23103303e2a220de881ff3bff47.png");
+}
+/* Botão play e pause */
+.jw-state-idle .jw-svg-icon-play path {
+display: none;
+}
+.jw-state-idle .jw-svg-icon-play {
+background-image: url("e9483117519c7c257de02ffdceda3e4517f5abd8.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-state-paused .jw-svg-icon-play path {
+display: none;
+}
+.jw-state-paused .jw-svg-icon-play {
+background-image: url("c671d7a1c52b9ec0b7d07dda3a3898adccc42d60.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-state-paused .jw-icon-playback:hover .jw-svg-icon-play {
+background-image: url("f8fe90582e70284892d9d0915fc00502ec10a7fd.png");
+}
+.jw-svg-icon-pause path {
+display: none;
+}
+.jw-svg-icon-pause {
+background-image: url("d23702fccb169ad23c5567557d72a882a6459a46.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-playback:hover .jw-svg-icon-pause {
+background-image: url("74a84a694afcb4b4117c5df6a69c5749ebd7083d.png");
+}
+/* Botão voltar 10 segundos */
+.jw-svg-icon-rewind path {
+display: none;
+}
+.jw-svg-icon-rewind {
+background-image: url("749c7d105da3d82e1751498d7d636c6c7efba9b8.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-rewind:hover .jw-svg-icon-rewind {
+background-image: url("4e566c2fe0aab6c65eeecbe46ace4c2a84b0b477.png");
+}
+/* Botão de configuração */
+.jw-svg-icon-settings path {
+display: none;
+}
+.jw-svg-icon-settings {
+background-image: url("3595c478f48e76e2290075ac9063d11c05f236c4.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-settings:hover .jw-svg-icon-settings {
+background-image: url("beb53b76a0d7ac1f1569ed73cb0f6cbcc0879365.png");
+}
+.jw-svg-icon-quality-100 path {
+display: none;
+}
+.jw-svg-icon-quality-100 {
+background-image: url("1c385355eff47a63f9916eeb7dbc6c70cf0fc88b.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-svg-icon-close path {
+display: none;
+}
+.jw-svg-icon-close {
+background-image: url("b609266fa24bdfaf1fa6524accfc4162dbefff1a.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-settings-close:hover .jw-svg-icon-close {
+background-image: url("d7536ebe69ff515d42c8d1e3f33fc27a0bc89dac.png");
+}
+/* Legenda */
+.jw-svg-icon-cc-off path {
+display: none;
+}
+.jw-svg-icon-cc-off {
+background-image: url("fdd7b9722ff5b5ce3b8e002cade1c2ac11ff89c9.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-cc .jw-svg-icon-cc-on path {
+display: none;
+}
+.jw-icon-cc .jw-svg-icon-cc-on {
+background-image: url("6931197c5612edc179a07bc27c66747db7b5ad58.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+/* Botão Volume */
+.jw-svg-icon-volume-100 path {
+display: none;
+}
+.jw-svg-icon-volume-100 {
+background-image: url("056b6cf2a2176b964a40da7e2118f2c41bee9576.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-volume:hover .jw-svg-icon-volume-100 {
+background-image: url("1a64cb554da74e40cf68382f010c5b85bb791c8d.png");
+}
+.jw-svg-icon-volume-50 path {
+display: none;
+}
+.jw-svg-icon-volume-50 {
+background-image: url("bbea6062a244aa46a46a0a86dbf1b2a59c87bfb0.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-volume:hover .jw-svg-icon-volume-50 {
+background-image: url("83f3a983905bed9762e81f89317243f2af9f997f.png");
+}
+.jw-svg-icon-volume-0 path {
+display: none;
+}
+.jw-svg-icon-volume-0 {
+background-image: url("bf2e0ec13a8a6325d7ac3ca3bb62f5b7042a1ab8.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.jw-icon-volume:hover .jw-svg-icon-volume-0 {
+background-image: url("32dbe23aa67db76edb89416a008bb722fef26393.png");
+}
+/* Background do botão Play */
+.jwplayer.jw-skin-Netflix.jw-state-idle .jw-controls {
+background: rgba(0, 0, 0, .5);
+}
+/* Fundo do botão Play */
+.jwplayer.jw-skin-Netflix .jw-display-controls .jw-display-icon-container,
+.jwplayer.jw-skin-Netflix .jw-display-controls .jw-display-icon-container {
+background: rgba(0, 0, 0, .4);
+border-radius: 50%;
+width: 87px;
+height: 87px;
+margin: 0;
+padding: 0;
+}
+.jwplayer.jw-skin-Netflix .jw-display-controls .jw-display-icon-container .jw-icon,
+.jwplayer.jw-skin-Netflix .jw-display-controls .jw-display-icon-container .jw-icon {
+color: #1E1E1E;
+width: 89px;
+height: 89px;
+margin: -1px;
+padding: 0;
+}
+/* :Hover botão Play */
+.jwplayer.jw-skin-Netflix.jw-state-idle .jw-display-controls .jw-display-icon-container:hover {
+background: rgba(0, 0, 0, .5);
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+/* Pause Background */
+.jwplayer.jw-skin-Netflix.jw-state-paused .jw-controls {
+background-color: rgba(0, 0, 0, .2);
+}
+/* Título no Meio */
+.jwplayer.jw-skin-Netflix.jw-state-idle .jw-title {
+visibility: hidden;
+}
+/* Cor do slider do Volume */
+.jwplayer.jw-skin-Netflix .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob {
+background-color: #f6232d;
+}
+.jwplayer.jw-skin-Netflix .jw-progress {
+background-color: #E50914;
+}
+.jwplayer.jw-skin-Netflix .jw-buffer {
+background-color: #666666;
+}
+/* Cor do slider completo horas/minutos */
+.jwplayer.jw-skin-Netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
+background-color: #222;
+}
+.jwplayer.jw-skin-Netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
+background-color: #666666;
+}
+/* Cor do slider horas/minutos Progresso */
+.jwplayer.jw-skin-Netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress {
+background-color: #E50914;
+}
+/* Cor do slider Ponto */
+.jwplayer.jw-skin-Netflix .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
+background-color: #f6232d;
+}
