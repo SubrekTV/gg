@@ -16191,7 +16191,7 @@ h6 .badge, .h6 .badge {
 .light {
     position: absolute;
     width: 0px;
-    opacity: .25;
+    opacity: .15;
     background-color: white;
     box-shadow: #e9f1f1 0px 0px 20px 2px;
     opacity: 0;
